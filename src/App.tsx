@@ -1,11 +1,7 @@
-function App() {
-  return (
-    <>
-      <div>
-        <h1 className="text-xl font-bold">Hello World</h1>
-      </div>
-    </>
-  )
-}
+import Dashboard from './pages/Dashboard';
 
-export default App
+export default function App() {
+  return (
+    <Dashboard />
+  );
+}
