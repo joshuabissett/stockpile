@@ -4,4 +4,5 @@ export interface Asset {
     shares: number;
     purchasePrice: number;
     currentPrice: number;
+    boughtOn: string | null;
 }
