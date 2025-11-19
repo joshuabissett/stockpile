@@ -1,5 +1,3 @@
-// src/components/AssetCard.tsx
-
 import type { Asset } from '../types';
 
 interface AssetCardProps {
